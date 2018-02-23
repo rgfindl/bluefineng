@@ -8,15 +8,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #5DADE2;
 }
 
 a:hover {
-  color: #fec503;
+  color: #3297da;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #5DADE2 !important;
 }
 
 h1,
@@ -65,13 +65,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #5DADE2;
+  border-color: #5DADE2;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #3d9ddc !important;
+  border-color: #3d9ddc !important;
   color: white;
 }
 
@@ -80,12 +80,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #5DADE2;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #5DADE2;
   text-shadow: none;
 }
 
@@ -108,17 +108,20 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #5DADE2;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #5DADE2;
+  background: black;
+  padding: 5px;
+  padding-right: 10px;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #3297da;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,7 +134,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #5DADE2;
 }
 
 @media (min-width: 992px) {
@@ -149,6 +152,7 @@ img::-moz-selection {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    background: white;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
@@ -161,13 +165,14 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+    background: none;
   }
 }
 
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/alex-jodoin-246078-unsplash.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -245,7 +250,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(93, 173, 226, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -449,7 +454,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #5DADE2;
 }
 
 .timeline > li .timeline-image h4 {
@@ -620,7 +625,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #5DADE2;
   box-shadow: none;
 }
 
@@ -648,6 +653,16 @@ section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section#contact .errors {
+  color: red;
+  display: none;
+}
+
+section#contact .thanks, section#contact .sending {
+  display: none;
+  color: white;
 }
 
 footer {
@@ -690,5 +705,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #5DADE2;
 }

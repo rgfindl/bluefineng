@@ -46,4 +46,13 @@ section#contact {
     color: $gray-400;
     @include heading-font;
   }
+  .errors {
+    color: red;
+    display: none;
+  }
+
+  .thanks, .sending {
+    display: none;
+    color: white;
+  }
 }
