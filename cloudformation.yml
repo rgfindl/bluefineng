@@ -276,7 +276,7 @@ Resources:
       ServiceRole: !GetAtt CodeBuildRole.Arn
       Source:
         Type: CODEPIPELINE
-        BuildSpec: ui/buildspec.yml
+        BuildSpec: buildspec.yml
       TimeoutInMinutes: 5 # must be between 5 minutes and 8 hours
 
   #
