@@ -677,6 +677,7 @@ section#contact .thanks, section#contact .sending {
 
 section#contact .grecaptcha-badge {
   float: left;
+  margin-bottom: 20px;
 }
 
 footer {
