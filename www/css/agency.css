@@ -236,6 +236,12 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
+  padding-top: 10px;
+}
+
+#portfolio .portfolio-item .portfolio-item-inner {
+  border: 1px solid grey;
+  padding: 5px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -667,6 +673,10 @@ section#contact .errors {
 section#contact .thanks, section#contact .sending {
   display: none;
   color: white;
+}
+
+section#contact .grecaptcha-badge {
+  float: left;
 }
 
 footer {
