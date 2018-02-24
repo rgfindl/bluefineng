@@ -114,7 +114,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: #5DADE2;
-  background: black;
+  background: transparent;
   padding: 5px;
   padding-right: 10px;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
