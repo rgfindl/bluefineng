@@ -294,6 +294,7 @@ header.masthead .intro-text .intro-heading {
   background-size: 100%, 100%;
   border-radius: 50%;
   background-image: none;
+  margin-top: -100px;
 }
 
 #testimonials #tcb-testimonial-carousel .carousel-control-next-icon:after {
