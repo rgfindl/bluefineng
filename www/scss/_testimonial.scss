@@ -1,0 +1,86 @@
+
+#testimonials {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  #tcb-testimonial-carousel {
+    a{
+      color: $primary;
+    }
+    .text-brand{
+      color: $primary;
+    }
+    img {
+      max-width: 125px;
+    }
+
+    .carousel-item {
+      padding-bottom: 75px;
+      min-height: 225px;
+    }
+    .carousel-indicators .active {
+      background: $primary;
+    }
+    .carousel-indicators li {
+      border: 1px solid #ccc;
+      margin-top: 50px;
+    }
+    .carousel-control {
+      color: $primary;
+      width: 5%;
+    }
+    .carousel-control:hover,
+    .carousel-control:focus {
+      color: $primary;
+    }
+    .carousel-control.left,
+    .carousel-control.right {
+      background-image: none;
+    }
+    .item{
+      padding: 15px 40px;
+      background: #f8f8f8;
+    }
+    .quote {
+      font-style: italic;
+    }
+    .name {
+
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 100px;
+      width: 100px;
+      background-size: 100%, 100%;
+      border-radius: 50%;
+      background-image: none;
+    }
+
+    .carousel-control-next-icon:after
+    {
+      content: '>';
+      font-size: 55px;
+      color: $primary;
+    }
+
+    .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 55px;
+      color: $primary;
+    }
+    @media screen and (max-width: 992px) {
+
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        display: none;
+      }
+      .carousel-item {
+        text-align: center;
+        min-height: 375px;
+      }
+      img {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+}

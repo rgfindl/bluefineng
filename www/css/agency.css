@@ -224,9 +224,103 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-.service-heading {
+#services {
+  padding-bottom: 0px;
+}
+
+#services .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+#testimonials {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+#testimonials #tcb-testimonial-carousel a {
+  color: #5DADE2;
+}
+
+#testimonials #tcb-testimonial-carousel .text-brand {
+  color: #5DADE2;
+}
+
+#testimonials #tcb-testimonial-carousel img {
+  max-width: 125px;
+}
+
+#testimonials #tcb-testimonial-carousel .carousel-item {
+  padding-bottom: 75px;
+  min-height: 225px;
+}
+
+#testimonials #tcb-testimonial-carousel .carousel-indicators .active {
+  background: #5DADE2;
+}
+
+#testimonials #tcb-testimonial-carousel .carousel-indicators li {
+  border: 1px solid #ccc;
+  margin-top: 50px;
+}
+
+#testimonials #tcb-testimonial-carousel .carousel-control {
+  color: #5DADE2;
+  width: 5%;
+}
+
+#testimonials #tcb-testimonial-carousel .carousel-control:hover,
+#testimonials #tcb-testimonial-carousel .carousel-control:focus {
+  color: #5DADE2;
+}
+
+#testimonials #tcb-testimonial-carousel .carousel-control.left,
+#testimonials #tcb-testimonial-carousel .carousel-control.right {
+  background-image: none;
+}
+
+#testimonials #tcb-testimonial-carousel .item {
+  padding: 15px 40px;
+  background: #f8f8f8;
+}
+
+#testimonials #tcb-testimonial-carousel .quote {
+  font-style: italic;
+}
+
+#testimonials #tcb-testimonial-carousel .carousel-control-prev-icon,
+#testimonials #tcb-testimonial-carousel .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+#testimonials #tcb-testimonial-carousel .carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: #5DADE2;
+}
+
+#testimonials #tcb-testimonial-carousel .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #5DADE2;
+}
+
+@media screen and (max-width: 992px) {
+  #testimonials #tcb-testimonial-carousel .carousel-control-prev-icon,
+  #testimonials #tcb-testimonial-carousel .carousel-control-next-icon {
+    display: none;
+  }
+  #testimonials #tcb-testimonial-carousel .carousel-item {
+    text-align: center;
+    min-height: 375px;
+  }
+  #testimonials #tcb-testimonial-carousel img {
+    margin-bottom: 15px;
+  }
 }
 
 .clients img {
